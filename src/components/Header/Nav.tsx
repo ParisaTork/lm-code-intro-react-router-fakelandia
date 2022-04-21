@@ -6,9 +6,6 @@ const Nav = () => (
 <Navbar color="dark" expand="md">
     <NavbarBrand href="/">Fakelandia Justice Department</NavbarBrand>
     <NavItem>
-        <NavLink to="/">Home</NavLink>
-    </NavItem>
-    <NavItem>
         <NavLink to='/misdemeanour'>Misdemeanours</NavLink>
     </NavItem>
     <NavItem>

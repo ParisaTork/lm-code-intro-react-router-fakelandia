@@ -1,8 +1,8 @@
-import Nav from './Nav';
+import NavHead from './NavHead';
 
 const Header = () => (
     <header>
-        <Nav/>
+        <NavHead/>
     </header>
 );
 export default Header;

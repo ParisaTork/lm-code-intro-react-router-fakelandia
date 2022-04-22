@@ -21,8 +21,8 @@ const Home : React.FC = () => {
         <div id="lottie">
         <Lottie 
             options={defaultOptions}
-            height={100}
-            width={100}
+            height={200}
+            width={200}
         />
         </div>
     </div>

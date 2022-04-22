@@ -1,12 +1,12 @@
 .linkText { 
-  color: white;
+  color: #1C247C;
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
   font-size: x-large;
-  background: repeating-linear-gradient(burlywood, burlywood 40px, grey 200px);
+  background: white;
   border-radius: 15px;
   padding: 8px;
-  border: 0.25px solid #DFB54B;
+  border: 0.25px solid black;
  }
 
  #aerial {

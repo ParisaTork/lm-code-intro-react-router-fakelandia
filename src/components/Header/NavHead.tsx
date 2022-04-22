@@ -3,13 +3,13 @@ import { Navbar, NavbarBrand, NavItem } from "reactstrap";
 
 const NavHead = () => {
   return (
-    <Navbar color="dark" expand="xl">
-        <NavbarBrand href="/">Fakelandia Justice Department</NavbarBrand>
+    <Navbar color="dark" expand="xl" id="navhead">
+        <NavbarBrand href="/" className="linkText"><img src="./fjd.png" alt="FJD logo" id="fjd"/></NavbarBrand>
         <NavItem>
-            <NavLink to='/misdemeanour'>Misdemeanours</NavLink>
+            <NavLink to='/misdemeanour' className="linkText">Misdemeanours</NavLink>
         </NavItem>
         <NavItem>
-            <NavLink to='/confession'>Confess to Us</NavLink>
+            <NavLink to='/confession' className="linkText">Confess to Us</NavLink>
         </NavItem>
     </Navbar>
   )

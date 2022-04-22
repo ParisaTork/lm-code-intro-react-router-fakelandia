@@ -16,7 +16,7 @@ const Home : React.FC = () => {
   return (
     <div>
         <img src="./fakelandia-aerial.jpg" id="aerial" alt="Aerial of Fakelandia"/>
-        <h1>Welcome to the home of the Justice department of Fakelandia.</h1>
+        <h1>Welcome to the home of the Justice Department of Fakelandia.</h1>
         <p>Here you can browse a list of recent misdemeanours committed by our citizens, or you can confess to your own misdemeanour.</p>
         <div id="lottie">
         <Lottie 

@@ -36,6 +36,10 @@ li {
   -webkit-transform: scale(1.3);
 }
 
+#fjd:hover {
+  -webkit-filter: brightness(110%);
+}
+
 #navhead { 
     background-image: url("resources/images/flag.png");
     background-repeat: repeat-x;

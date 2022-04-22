@@ -16,15 +16,15 @@ const Home : React.FC = () => {
   return (
     <div>
         <img src="./fakelandia-aerial.jpg" id="aerial" alt="Aerial of Fakelandia"/>
-        <h1>Welcome to the home of the Justice Department of Fakelandia.</h1>
-        <p>Here you can browse a list of recent misdemeanours committed by our citizens, or you can confess to your own misdemeanour.</p>
         <div id="lottie">
         <Lottie 
             options={defaultOptions}
-            height={200}
-            width={200}
+            height={100}
+            width={100}
         />
         </div>
+        <h1>Welcome to the home of the Justice Department of Fakelandia.</h1>
+        <p>Here you can browse a list of recent misdemeanours committed by our citizens, or you can confess to your own misdemeanour.</p>
     </div>
   )
 }

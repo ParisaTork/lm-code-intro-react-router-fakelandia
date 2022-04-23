@@ -1,4 +1,4 @@
-.linkText { 
+.linkTextHeader { 
   color: white;
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
@@ -7,6 +7,11 @@
   border-radius: 15px;
   padding: 5px;
   border: 1px solid white;
+ }
+
+ .linkTextFooter {
+  color:white;
+  font-family: 'Oswald', sans-serif;
  }
 
  #aerial {

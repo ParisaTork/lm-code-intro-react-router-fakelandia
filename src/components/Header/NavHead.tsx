@@ -6,10 +6,10 @@ const NavHead = () => {
     <Navbar color="dark" id="navhead">
         <NavbarBrand href="/" id="logo"><img src="./fjd.png" alt="FJD logo" id="fjd"/></NavbarBrand>
         <NavItem>
-            <NavLink to='/misdemeanour' className="linkText">Misdemeanours</NavLink>
+            <NavLink to='/misdemeanour' className="linkTextHeader">Misdemeanours</NavLink>
         </NavItem>
         <NavItem>
-            <NavLink to='/confession' className="linkText">Confess to Us</NavLink>
+            <NavLink to='/confession' className="linkTextHeader">Confess to Us</NavLink>
         </NavItem>
     </Navbar>
   )

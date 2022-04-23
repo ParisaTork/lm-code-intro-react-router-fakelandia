@@ -1,12 +1,12 @@
 .linkText { 
-  color: #1C247C;
+  color: white;
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
   font-size: x-large;
-  background: white;
+  background: #1C247C;
   border-radius: 15px;
   padding: 5px;
-  border: 0.25px solid black;
+  border: 0.25px solid white;
  }
 
  #aerial {
@@ -40,8 +40,8 @@ li {
   -webkit-filter: brightness(110%);
 }
 
-#navhead { 
-    background-image: url("resources/images/flag.png");
+#navhead {
+    background-image: url("resources/images/flag.png"); 
     background-repeat: repeat-x;
     background-size: 250px;
 }

@@ -1,15 +1,29 @@
 import { NavLink } from "react-router-dom";
-import { Navbar, NavItem } from "reactstrap";
+import { Container, Row, Col, Navbar, NavItem } from "reactstrap";
 
 const NavSubHead = () => {
   return (
     <Navbar color="light">
-        <NavItem>
+      <Container>
+        <Row>
+        <Col sm={{
+          offset: 3,
+          size: 'auto'
+        }}>
+        <NavItem >
             <NavLink className="linkTextNavSubHead" to='/misdemeanour'>Misdemeanours</NavLink>
         </NavItem>
+        </Col>
+        <Col sm={{
+          offset: 3,
+          size: 'auto'
+        }}>
         <NavItem>
-            <NavLink className="linkTextNavSubHead" to='/confession'>Confess to Us</NavLink>
+            <NavLink className="text-center linkTextNavSubHead" to='/confession'>Confess to Us</NavLink>
         </NavItem>
+        </Col>
+        </Row>
+      </Container>
     </Navbar>
   )
 }

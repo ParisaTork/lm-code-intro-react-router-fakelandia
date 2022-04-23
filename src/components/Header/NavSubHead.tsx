@@ -6,20 +6,14 @@ const NavSubHead = () => {
     <Navbar color="light">
       <Container>
         <Row>
-        <Col sm={{
-          offset: 3,
-          size: 'auto'
-        }}>
-        <NavItem >
+        <Col className="col-6 mx-auto">
+        <NavItem className="nav-item text-center">
             <NavLink className="linkTextNavSubHead" to='/misdemeanour'>Misdemeanours</NavLink>
         </NavItem>
         </Col>
-        <Col sm={{
-          offset: 3,
-          size: 'auto'
-        }}>
-        <NavItem>
-            <NavLink className="text-center linkTextNavSubHead" to='/confession'>Confess to Us</NavLink>
+        <Col className="col-6">
+        <NavItem className="nav-item text-center">
+            <NavLink className="linkTextNavSubHead" to='/confession'>Confess to Us</NavLink>
         </NavItem>
         </Col>
         </Row>

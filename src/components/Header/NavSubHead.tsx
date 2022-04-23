@@ -6,7 +6,7 @@ const NavSubHead = () => {
     <Navbar color="light">
       <Container>
         <Row>
-        <Col className="col-6 mx-auto">
+        <Col className="col-6">
         <NavItem className="nav-item text-center">
             <NavLink className="linkTextNavSubHead" to='/misdemeanour'>Misdemeanours</NavLink>
         </NavItem>

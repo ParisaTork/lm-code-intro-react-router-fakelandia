@@ -2,7 +2,7 @@
   color: #1C247C;
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
-  font-size: large;
+  font-size: 1.4rem;
  }
 
  #aerial {
@@ -70,6 +70,11 @@ p {
     background-image: url("resources/images/flag.png");
     background-repeat: repeat-x;
     background-size: 1000px;
+  }
+
+  #fjd {
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
   }
 }
 

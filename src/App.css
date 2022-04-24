@@ -4,6 +4,10 @@
   font-size: 1.4rem;
  }
 
+ .linkTextNavSubHead:hover {
+  text-decoration: underline;
+ }
+
  #aerial {
   height: 250px;
   width: 100%;
